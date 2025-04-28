@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		AD4A38602DBF4E6D002CE4D6 /* LMStoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD4A38542DBF4E6D002CE4D6 /* LMStoreKit.framework */; };
+		B3F156E1BA86B9264DD68D9A /* Pods_LMStoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F673CB74AB98AFEBD4F3D1BB /* Pods_LMStoreKit.framework */; };
+		E0714915185CAFB28F94A8CD /* Pods_LMStoreKit_LMStoreKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8B535F383A3EE96A335C389 /* Pods_LMStoreKit_LMStoreKitTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -21,18 +23,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7A3455A4C2293F694A26C63F /* Pods-LMStoreKit-LMStoreKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LMStoreKit-LMStoreKitTests.release.xcconfig"; path = "Target Support Files/Pods-LMStoreKit-LMStoreKitTests/Pods-LMStoreKit-LMStoreKitTests.release.xcconfig"; sourceTree = "<group>"; };
+		7B57A8B37CFB18C41E7E23AE /* Pods-LMStoreKit-LMStoreKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LMStoreKit-LMStoreKitTests.debug.xcconfig"; path = "Target Support Files/Pods-LMStoreKit-LMStoreKitTests/Pods-LMStoreKit-LMStoreKitTests.debug.xcconfig"; sourceTree = "<group>"; };
 		AD4A38542DBF4E6D002CE4D6 /* LMStoreKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LMStoreKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD4A385F2DBF4E6D002CE4D6 /* LMStoreKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LMStoreKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8B535F383A3EE96A335C389 /* Pods_LMStoreKit_LMStoreKitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LMStoreKit_LMStoreKitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3D6EF3614C366F6AA6AC187 /* Pods-LMStoreKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LMStoreKit.debug.xcconfig"; path = "Target Support Files/Pods-LMStoreKit/Pods-LMStoreKit.debug.xcconfig"; sourceTree = "<group>"; };
+		F020B55ADDC22285448698A1 /* Pods-LMStoreKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LMStoreKit.release.xcconfig"; path = "Target Support Files/Pods-LMStoreKit/Pods-LMStoreKit.release.xcconfig"; sourceTree = "<group>"; };
+		F673CB74AB98AFEBD4F3D1BB /* Pods_LMStoreKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LMStoreKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		AD4A38562DBF4E6D002CE4D6 /* LMStoreKit */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = LMStoreKit;
 			sourceTree = "<group>";
 		};
 		AD4A38632DBF4E6D002CE4D6 /* LMStoreKitTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = LMStoreKitTests;
 			sourceTree = "<group>";
 		};
@@ -43,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3F156E1BA86B9264DD68D9A /* Pods_LMStoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,18 +64,32 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD4A38602DBF4E6D002CE4D6 /* LMStoreKit.framework in Frameworks */,
+				E0714915185CAFB28F94A8CD /* Pods_LMStoreKit_LMStoreKitTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		62526E3364299CE2BA964CE7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E3D6EF3614C366F6AA6AC187 /* Pods-LMStoreKit.debug.xcconfig */,
+				F020B55ADDC22285448698A1 /* Pods-LMStoreKit.release.xcconfig */,
+				7B57A8B37CFB18C41E7E23AE /* Pods-LMStoreKit-LMStoreKitTests.debug.xcconfig */,
+				7A3455A4C2293F694A26C63F /* Pods-LMStoreKit-LMStoreKitTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		AD4A384A2DBF4E6D002CE4D6 = {
 			isa = PBXGroup;
 			children = (
 				AD4A38562DBF4E6D002CE4D6 /* LMStoreKit */,
 				AD4A38632DBF4E6D002CE4D6 /* LMStoreKitTests */,
 				AD4A38552DBF4E6D002CE4D6 /* Products */,
+				62526E3364299CE2BA964CE7 /* Pods */,
+				F8F482ADDD8CD4F94FE3677E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,6 +100,15 @@
 				AD4A385F2DBF4E6D002CE4D6 /* LMStoreKitTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		F8F482ADDD8CD4F94FE3677E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F673CB74AB98AFEBD4F3D1BB /* Pods_LMStoreKit.framework */,
+				B8B535F383A3EE96A335C389 /* Pods_LMStoreKit_LMStoreKitTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -92,6 +128,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AD4A38682DBF4E6D002CE4D6 /* Build configuration list for PBXNativeTarget "LMStoreKit" */;
 			buildPhases = (
+				8928891497380E30DD77CB29 /* [CP] Check Pods Manifest.lock */,
 				AD4A384F2DBF4E6D002CE4D6 /* Headers */,
 				AD4A38502DBF4E6D002CE4D6 /* Sources */,
 				AD4A38512DBF4E6D002CE4D6 /* Frameworks */,
@@ -105,8 +142,6 @@
 				AD4A38562DBF4E6D002CE4D6 /* LMStoreKit */,
 			);
 			name = LMStoreKit;
-			packageProductDependencies = (
-			);
 			productName = LMStoreKit;
 			productReference = AD4A38542DBF4E6D002CE4D6 /* LMStoreKit.framework */;
 			productType = "com.apple.product-type.framework";
@@ -115,9 +150,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AD4A386B2DBF4E6D002CE4D6 /* Build configuration list for PBXNativeTarget "LMStoreKitTests" */;
 			buildPhases = (
+				81BC44F0341D5BDAFE65407C /* [CP] Check Pods Manifest.lock */,
 				AD4A385B2DBF4E6D002CE4D6 /* Sources */,
 				AD4A385C2DBF4E6D002CE4D6 /* Frameworks */,
 				AD4A385D2DBF4E6D002CE4D6 /* Resources */,
+				B1514FA6054860E274407516 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,8 +165,6 @@
 				AD4A38632DBF4E6D002CE4D6 /* LMStoreKitTests */,
 			);
 			name = LMStoreKitTests;
-			packageProductDependencies = (
-			);
 			productName = LMStoreKitTests;
 			productReference = AD4A385F2DBF4E6D002CE4D6 /* LMStoreKitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -188,6 +223,70 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		81BC44F0341D5BDAFE65407C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LMStoreKit-LMStoreKitTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8928891497380E30DD77CB29 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LMStoreKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1514FA6054860E274407516 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LMStoreKit-LMStoreKitTests/Pods-LMStoreKit-LMStoreKitTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LMStoreKit-LMStoreKitTests/Pods-LMStoreKit-LMStoreKitTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LMStoreKit-LMStoreKitTests/Pods-LMStoreKit-LMStoreKitTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AD4A38502DBF4E6D002CE4D6 /* Sources */ = {
@@ -342,6 +441,7 @@
 		};
 		AD4A38692DBF4E6D002CE4D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3D6EF3614C366F6AA6AC187 /* Pods-LMStoreKit.debug.xcconfig */;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -353,6 +453,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -374,6 +475,7 @@
 		};
 		AD4A386A2DBF4E6D002CE4D6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F020B55ADDC22285448698A1 /* Pods-LMStoreKit.release.xcconfig */;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -385,6 +487,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -406,6 +509,7 @@
 		};
 		AD4A386C2DBF4E6D002CE4D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B57A8B37CFB18C41E7E23AE /* Pods-LMStoreKit-LMStoreKitTests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -421,6 +525,7 @@
 		};
 		AD4A386D2DBF4E6D002CE4D6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A3455A4C2293F694A26C63F /* Pods-LMStoreKit-LMStoreKitTests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
